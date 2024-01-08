@@ -14,8 +14,8 @@ function Header() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#features">Home</Nav.Link>
-                            <Nav.Link href="#pricing">About Me</Nav.Link>
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#aboutme">About Me</Nav.Link>
                             <NavDropdown title="Teach Stack" id="collapsible-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Typescript</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.1">Reactjs</NavDropdown.Item>
@@ -30,8 +30,8 @@ function Header() {
                             </NavDropdown>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#deets">EN/DE</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
+                            <Nav.Link href="#ln">EN/DE</Nav.Link>
+                            <Nav.Link eventKey={2} href="#theme">
                                 Dark Mode
                             </Nav.Link>
                         </Nav>
