@@ -3,12 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import banner from '../assets/banner.jpeg';
 
 function Header() {
     return (
         <React.Fragment>
 
-            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary mb-5">
                 <Container>
                     <Navbar.Brand href="#home"><span><b>&lt;/&gt;</b> Art of coding</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -36,6 +37,9 @@ function Header() {
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
+                    {/* <div>
+                    <img src={banner} alt="banner" />
+                    </div> */}
                 </Container>
             </Navbar>
         </React.Fragment>
